@@ -1,0 +1,301 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header nav {
+  background-color: #181d22;
+  height: 8vh;
+}
+
+header nav .logo a {
+  text-decoration: none;
+}
+
+header nav .logo a h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+header nav .navtext ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header nav .navtext ul li {
+  list-style: none;
+}
+
+header nav .navtext ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+header nav .navtext ul li a:hover {
+  color: #0bc7ae;
+}
+
+#start {
+  background-color: #1abc9c;
+  height: 75vh;
+}
+
+#start .img img {
+  width: 18%;
+}
+
+#start .title h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+#start .icon {
+  font-size: 2rem;
+  position: relative;
+  width: 200px;
+  margin: 0 auto;
+}
+
+#start .icon::before {
+  content: '';
+  width: 40px;
+  height: 3px;
+  background-color: white;
+  position: absolute;
+  left: 0px;
+  bottom: 20px;
+}
+
+#start .icon::after {
+  content: '';
+  width: 40px;
+  height: 3px;
+  background-color: white;
+  position: absolute;
+  right: 0px;
+  bottom: 20px;
+}
+
+.info span {
+  font-size: 25px;
+  color: white;
+}
+
+#portfolio {
+  margin-top: 4%;
+}
+
+#portfolio .title h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #181d22;
+}
+
+#portfolio .card {
+  margin-top: 3%;
+  border: 0;
+  position: relative;
+}
+
+#portfolio .card .icon {
+  display: none;
+  background-color: yellowgreen;
+  position: absolute;
+  top: 5%;
+  width: 20%;
+}
+
+#portfolio .card:hover {
+  cursor: pointer;
+}
+
+#portfolio .card:hover .icon {
+  display: block;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+#about {
+  margin-top: 7%;
+  background-color: #1abc9c;
+  height: 55vh;
+}
+
+#about .title h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+#about .icon {
+  font-size: 2rem;
+  position: relative;
+  width: 200px;
+  margin: 0 auto;
+}
+
+#about .icon::before {
+  content: '';
+  width: 40px;
+  height: 3px;
+  background-color: #110f0f;
+  position: absolute;
+  left: 0px;
+  bottom: 20px;
+}
+
+#about .icon::after {
+  content: '';
+  width: 40px;
+  height: 3px;
+  background-color: #080808;
+  position: absolute;
+  right: 0px;
+  bottom: 20px;
+}
+
+#about .info {
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#about .info .text {
+  width: 33%;
+  font-size: 22px;
+}
+
+#about .freebtn {
+  width: 17%;
+  height: 7vh;
+  background-color: #1abc9c;
+  color: white;
+  font-size: 22px;
+}
+
+#about .freebtn:hover {
+  background-color: white;
+  color: black;
+}
+
+#contact {
+  margin-top: 5%;
+}
+
+#contact .title h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#contact .icon {
+  font-size: 2rem;
+  position: relative;
+  width: 200px;
+  margin: 0 auto;
+}
+
+#contact .icon::before {
+  content: '';
+  width: 40px;
+  height: 3px;
+  background-color: #110f0f;
+  position: absolute;
+  left: 0px;
+  bottom: 20px;
+}
+
+#contact .icon::after {
+  content: '';
+  width: 40px;
+  height: 3px;
+  background-color: #080808;
+  position: absolute;
+  right: 0px;
+  bottom: 20px;
+}
+
+#contact form input {
+  height: 8vh;
+}
+
+#contact button {
+  height: 6vh;
+  width: 10%;
+  opacity: 70%;
+}
+
+footer #footertop {
+  margin-top: 4%;
+  background-color: #2c3e50;
+  height: 25vh;
+  color: white;
+}
+
+footer #footertop .social {
+  width: 30%;
+}
+
+footer #footertop .social .icons {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer #footertop .social .icons .icon {
+  width: 50px;
+  text-align: center;
+  height: 50px;
+}
+
+footer #footertop .social .icons .icon i {
+  font-size: 20px;
+}
+
+footer #footertop .social .icons .icon:hover {
+  background-color: white;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+footer #footertop .social .icons .icon:hover i {
+  color: black;
+}
+
+footer #footertop .social .icons .icon a {
+  text-decoration: none;
+  margin-top: 5%;
+}
+
+footer #footertop .social .icons .icon a i {
+  width: 40px;
+  color: white;
+}
+
+footer #footertop .freelancer .info {
+  font-size: 20px;
+}
+
+footer #footertop .freelancer .info a {
+  color: #1abc9c;
+}
+
+footer #footerends {
+  height: 10vh;
+  background-color: #1a252f;
+}
+
+footer #footerends .info span {
+  font-size: 16px;
+}
+/*# sourceMappingURL=style.css.map */
